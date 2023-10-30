@@ -16,8 +16,15 @@ Une variable locale n'est accessible qu'à l'intérieur de la fonction.
 //    - stocke dans une variable message la chaîne de caractères "Bonjour !"
 //    - donne l'ordre d'afficher dans la console le contenu de la variable message
 
+function direBonjour(){
+    let message = 'Bonjour !';
+    console.log(message);
+}
+
 // 2°) À la racine du programme, en dehors du corps de la fonction,
 //     donner l'ordre d'afficher dans la console le contenu de la variable message
+console.log(direBonjour());
+
 
 /*
 Ma variable message est une variable locale, je l'ai déclarée dans ma fonction direBonjour
@@ -30,9 +37,17 @@ Ma variable message est une variable locale, je l'ai déclarée dans ma fonction
 //    - stocke dans une variable message la chaîne de caractères "Bonjour !"
 //    - retourne la variable message
 
+function direBonjour1 (){
+    let message1 = 'Bonjour !';
+    return message1;
+}
+
+
 // 2°) À la racine du programme, en dehors du corps de la fonction,
 //    - donner l'ordre d'afficher dans la console le contenu de la variable message
 //    - trouver le bon moyen pour afficher dans la console le contenu de la variable message
+console.log(direBonjour1());
+
 
 /* 
 Ma variable message est une variable locale, je l'ai déclarée dans ma fonction direBonjour
