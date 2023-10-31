@@ -8,14 +8,19 @@
 
 /* EXERCICE 1 : Plusieurs fonctions sans paramètre
 1. a) Déclarez une fonction appelée double3 qui affiche dans la console 'Le double de 3 est  '.
-   b) Appelez cette fonction.
+   b) Appelez cette fonction.*/
+
+function double3 (){
+    console.log('Le double de 3 est ');
+}
+double3();
 
 // Imaginons à présent qu'on a besoin de calculer le double d'autres nombres 
 // On a besoin de déclarer une fonction pour calculer le double de 10
 // et puis de déclarer une AUTRE fonction pour calculer le double de 24
 // et puis de déclarer une AUTRE fonction pour calculer le double de 128
 // etc. et ainsi de suite à chaque fois qu'on veut calculer le double d'un nouveau nombre 
-*/
+
 
 /*
 // Si on regarde toutes ces fonctions, elles ont toutes un canevas commun,
@@ -36,3 +41,7 @@
                      - le double de 24 ;
                      - le double de 128.
 */
+function double (nombre){
+    console.log(`Le double de ${nombre} est`);
+}
+double(nombre = 128);
