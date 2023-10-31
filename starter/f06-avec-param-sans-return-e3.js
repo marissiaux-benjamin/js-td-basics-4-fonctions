@@ -23,7 +23,7 @@ function presenter(prenom, age) {
     console.log(`Tu t'appelles ${prenom} et tu as ${age} ans.`);
 }
 presenter('Garance',10);
-presenter('Prosper', 6);
+presenter(6, 'Prosper');
 
 // Appels de fonction avec passage de paramètres
 
