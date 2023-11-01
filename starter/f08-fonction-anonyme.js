@@ -5,7 +5,6 @@
 // 6. FONCTION ANONYME
 
 // 1°) Déclaration de fonction sous la forme d'une expression de fonction
-
 // a) sans paramètre ni return
 
 /* EXERCICE :
@@ -13,13 +12,15 @@
   la fonction direBonjour qui affiche "Bonjour !" dans la console
 - Exécutez la fonction
 */
-
+const direBonjour = function (){
+    console.log('Bonjour !');
+};
 // Expression de fonction sans paramètre ni return
 
 
 // Appel de la fonction
 
-
+direBonjour();
 
 // b) sans paramètre mais avec return
 
@@ -28,9 +29,13 @@
   la fonction disBonjour qui retourne la chaîne "Bonjour !"
 - Utilisez-la pour afficher "Bonjour !" dans la console
 */
+const disBonjour = function (){
+    return 'Bonjour !';
+    }
 
+console.log(disBonjour());
 // Expression de fonction sans paramètre mais avec return
-;
+
 
 // Utilisation de la fonction pour afficher "Bonjour !" dans la console
 
@@ -45,7 +50,11 @@
    - retourne ce message
 - Utilisez-la pour saluer Thomas dans la console
 */
-
+const salut = function (prenom){
+    const message = `Bonjour ${prenom}!`;
+    return message;
+}
 // Expression de fonction avec paramètre et return
 
 // Utilisation de la fonction pour saluer Thomas dans la console
+console.log(salut('Thomas'));
