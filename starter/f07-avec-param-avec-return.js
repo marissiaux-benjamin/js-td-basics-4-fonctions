@@ -8,11 +8,15 @@
 1. Déclarez une fonction appelée direBonjour qui
    - prend comme paramètre le prenom
    - déclare une variable message contenant "Bonjour   !"
-   - retourne cette variable message
-2. Affichez dans la console bonjour à
+   - retourne cette variable message*/
+function direBonjour (prenom){
+    let message = 'Bonjour';
+    return `${message} ${prenom} !`;
+}
+/*2. Affichez dans la console bonjour à
    a) "Baptiste"
-   b) "Sophie"
-*/
+   b) "Sophie"*/
+console.log(direBonjour('Sophie'));
 
 // RETURN, PORTÉE DE VARIABLE, PARAMÈTRE - RÉSUMÉ GLOBAL :
 /*
