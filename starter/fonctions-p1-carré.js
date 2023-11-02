@@ -19,11 +19,16 @@ FONCTIONS - PRÉPA 1 : Le carré d'un nombre
 
 // Calculer le carré de 0, 2 et 5 en utilisant carre1
 
-
+function carre1 (a){
+    return Math.pow(a, 2);
+}
+console.log(carre1(5));
 
 // Déclarer carre2 (en utilisant une fonction fléchée) pour qu'elle retourne le carré de x
 
+const carre2 = (a) => Math.pow(a, 2);
 
+console.log(carre2(5));
 
 // Calculer le carré de 0, 2 et 5 en utilisant carre2
 
