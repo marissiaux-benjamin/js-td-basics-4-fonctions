@@ -13,14 +13,18 @@ N.B. Faites deux versions :
 */
 
 // Syntaxe classique
-
+function calcMin (a, b){
+    return Math.min(a, b);
+}
+console.log(calcMin(4.5, 5));
 
 // Utilisation de la fonction calcMin pour calculer le minimum
 
 
 // Version avec une arrow function
-
 // Utilisation de la fonction calcMinArrow pour calculer le minimum
+const calcMinArrow = (a, b) => Math.min(a, b);
+console.log(calcMinArrow(19, 9));
 
 
 // Version encore plus concise avec une arrow function
@@ -28,3 +32,4 @@ const calcMinConcise = (a, b) => (a < b) ? a : b;
 
 // Utilisation de la fonction calcMinConcise pour calculer le minimum
 
+console.log(calcMinConcise(1, 1));
