@@ -37,7 +37,7 @@ console.log(getRandomInt(10));//nbr aleatoire entre 0 et 10 exclu.
 function entre5Et10 (min, max) {
     return Math.floor(Math.random() * (max - min)+ min);
 }
-console.log(entre5Et10(5, 15));
+console.log(entre5Et10(5, 15));//nbr aleatoire entre 5 et 15
 // Nous découvrirons plein d'autres fonctions prédéfinies dans la suite de ce cours.
 
 // 2°) Consulter la documentation !!
