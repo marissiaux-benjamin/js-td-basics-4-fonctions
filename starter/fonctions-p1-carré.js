@@ -28,7 +28,7 @@ console.log(carre1(5));
 
 const carre2 = (a) => Math.pow(a, 2);
 
-console.log(carre2(5));
+console.log(carre2(2));
 
 // Calculer le carré de 0, 2 et 5 en utilisant carre2
 
