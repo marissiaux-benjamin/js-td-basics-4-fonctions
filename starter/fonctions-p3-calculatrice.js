@@ -13,7 +13,24 @@ Aide : votre fonction s'exécute avec le pattern suivant : calculer(nb1, "+", nb
 */
 
 // Déclaration de la fonction calculer
-
-
+const nbr1 = parseInt(prompt('Entrez un premier nombre'));
+const operateur = prompt('Veuillez entrer l\'operateur de votre calcule ; +, -, * ou /');
+const nbr2 = parseInt(prompt('Entrez un deuxième nombre'));
+function calculer () {
+    switch (operateur){
+        case '+' :
+            console.log(`${nbr1} + ${nbr2} = ${nbr1 + nbr2}`);
+        break;
+        case '-' :
+            console.log(`${nbr1} - ${nbr2} = ${nbr1 - nbr2}`);
+        break;
+        case '*' :
+            console.log(`${nbr1} * ${nbr2} = ${nbr1 * nbr2}`);
+        break;
+        case '/' :
+            console.log(`${nbr1} / ${nbr2} = ${nbr1 / nbr2}`);
+        break;
+    }
+}
 // Utilisation de la fonction calculer
-
+console.log(calculer());
